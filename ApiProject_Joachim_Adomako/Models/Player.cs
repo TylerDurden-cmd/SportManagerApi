@@ -6,7 +6,6 @@ namespace ApiProject_Joachim_Adomako.Models
     public class Player
     {
         [Column("Id")]
-        [Required]
         [Key]
         public int Id { get; set; }
 
@@ -18,7 +17,11 @@ namespace ApiProject_Joachim_Adomako.Models
         public int Age { get; set; }
 
         [Column(name: "Team Id")]
+        [Required]
         public int Team_id { get; set; }
+
+        [Column(name: "Team")]
+        public Team Team { get; set; }
 
         [Column(name: "Picture Player")]
         public string Image { get; set; } = string.Empty;

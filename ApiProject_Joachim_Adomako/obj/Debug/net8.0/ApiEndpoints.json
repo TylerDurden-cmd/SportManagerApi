@@ -18,8 +18,98 @@
         "IsRequired": false
       },
       {
+        "Name": "Team1.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team1.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team1.Sport",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team1.City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team1.Coach",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team1.Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team1.players",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Player, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team1.HomeMatches",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Match, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team1.AwayMatches",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Match, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
         "Name": "Team2_id",
         "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team2.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team2.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team2.Sport",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team2.City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team2.Coach",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team2.Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team2.players",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Player, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team2.HomeMatches",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Match, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team2.AwayMatches",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Match, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": false
       },
       {
@@ -213,6 +303,51 @@
         "IsRequired": false
       },
       {
+        "Name": "Team.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team.Sport",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team.City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team.Coach",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team.Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team.players",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Player, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team.HomeMatches",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Match, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Team.AwayMatches",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Match, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
         "Name": "Image",
         "Type": "System.String",
         "IsRequired": false
@@ -395,6 +530,21 @@
       {
         "Name": "Image",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "players",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Player, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "HomeMatches",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Match, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "AwayMatches",
+        "Type": "System.Collections.Generic.List\u00601[[ApiProject_Joachim_Adomako.Models.Match, ApiProject_Joachim_Adomako, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": false
       }
     ],

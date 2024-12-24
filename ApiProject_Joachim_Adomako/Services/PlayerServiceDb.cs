@@ -21,24 +21,35 @@ namespace ApiProject_Joachim_Adomako.Services
 
         public async Task<Player> GetPlayer(int id)
         {
-            return await _contextSport.players.FirstOrDefaultAsync((x) => x.Id == id);
+            return await _contextSport.players
+                .Include((x) => x.Team)
+                .FirstOrDefaultAsync((x) => x.Id == id);
         }
 
         public async Task<List<Player>> GetAllPlayers()
         {
-            return await _contextSport.players.ToListAsync();
+            return await _contextSport.players
+                .Include((x) => x.Team)
+                .ToListAsync();
         }
 
         public async Task<string> GetImagePlayer(int id)
         {
-            var player = await _contextSport.players.FirstOrDefaultAsync((x) => x.Id == id);
+            var player = await _contextSport.players
+                .FirstOrDefaultAsync((x) => x.Id == id);
+            if(player == null)
+            {
+                throw new ArgumentNullException(nameof(player), "player not found");
+            }
             return player.Image;
         }
 
         public async Task DeletePlayer(int id)
         {
             //delete alle matches 
-            var player = await _contextSport.players.FirstOrDefaultAsync((x) => x.Id == id);
+            var player = await _contextSport.players
+                .Include((x) => x.Team)
+                .FirstOrDefaultAsync((x) => x.Id == id);
             if(player != null)
             {
                 _contextSport.players.Remove(player);
@@ -49,7 +60,9 @@ namespace ApiProject_Joachim_Adomako.Services
 
         public async Task UpdatePlayer(int id, Player updatePlayer)
         {
-            var oldPlayer = await _contextSport.players.FirstOrDefaultAsync((x) => x.Id == id);
+            var oldPlayer = await _contextSport.players
+                .Include((x) => x.Team)
+                .FirstOrDefaultAsync((x) => x.Id == id);
 
             if (id != updatePlayer.Id)
             {

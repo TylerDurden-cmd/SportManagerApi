@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiProject_Joachim_Adomako")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a49dcca9770649d9c14ee56901bd4af2dbf71eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9fb6ccca10a20657b05a3f76ede127cc6deb7c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiProject_Joachim_Adomako")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiProject_Joachim_Adomako")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

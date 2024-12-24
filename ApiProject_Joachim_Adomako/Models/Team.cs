@@ -6,16 +6,13 @@ namespace ApiProject_Joachim_Adomako.Models
     public class Team
     {
         [Column("Id")]
-        [Required]
         [Key]
         public int Id { get; set; }
 
         [Column(name: "Name Team", TypeName= "varchar(32)" )]
-        [Required]
         public string Name { get; set; } = string.Empty;
 
         [Column(name: "Sport Team")]
-        [Required]
         public string Sport { get; set; } = string.Empty;
 
         [Column(name: "City Team")]
@@ -26,6 +23,10 @@ namespace ApiProject_Joachim_Adomako.Models
 
         [Column(name: "Image Team")]
         public string Image { get; set; } = string.Empty;
+        [Column(name: "players")]
+        public List<Player> players { get; set; }
+        public List<Match> HomeMatches { get; set; }
+        public List<Match> AwayMatches { get; set; }
     }
 
 }

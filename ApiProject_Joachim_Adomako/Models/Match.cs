@@ -10,14 +10,17 @@ namespace ApiProject_Joachim_Adomako.Models
         [Key]
         public int Id { get; set; }
 
-        [Column(name: "Team 1", TypeName = "varchar(32)")]
+        [Column(name: "Team Id 1", TypeName = "varchar(32)")]
         [Required]
-
         public int Team1_id { get; set; }
+        [Column(name: "Team 1", TypeName = "varchar(32)")]
+        public Team? Team1 { get; set; }
 
-        [Column(name: "Team 2", TypeName = "varchar(32)")]
+        [Column(name: "Team Id 2", TypeName = "varchar(32)")]
         [Required]
         public int Team2_id { get; set; }
+        [Column(name: "Team 2", TypeName = "varchar(32)")]
+        public Team? Team2 { get; set; }
 
         [Column(name: "Date")]
         public DateTime Date { get; set; }
@@ -25,8 +28,7 @@ namespace ApiProject_Joachim_Adomako.Models
         [Column(name: "Location")]
         public string Location { get; set; } = string.Empty;
 
-        [Column(name: "Outcome")]
-        [Required]  
+        [Column(name: "Outcome")] 
         public string Outcome { get; set; } = string.Empty;
 
         [Column(name: "Image")]

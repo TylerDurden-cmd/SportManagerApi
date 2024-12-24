@@ -23,23 +23,37 @@ namespace ApiProject_Joachim_Adomako.Services
 
         public async Task<Match> GetMatch(int id)
         {
-            return await _contextSport.Matches.FirstOrDefaultAsync((x) => x.Id == id);
+            return await _contextSport.Matches
+                .Include((x) => x.Team1)
+                .Include((x) => x.Team2)
+                .FirstOrDefaultAsync((x) => x.Id == id);
         }
 
         public async Task<List<Match>> GetAllMatches()
         {
-            return await _contextSport.Matches.ToListAsync();
+            return await _contextSport.Matches
+                .Include((x) => x.Team1)
+                .Include((x) => x.Team2)
+                .ToListAsync();
         }
 
         public async Task<string> GetImageMatch(int id)
         {
-            var match = await _contextSport.Matches.FirstOrDefaultAsync((x) => x.Id == id);
+            var match = await _contextSport.Matches
+                .FirstOrDefaultAsync((x) => x.Id == id);
+            if(match == null)
+            {
+                throw new ArgumentNullException(nameof(match), "Match not found");
+            }
             return match.Image;
         }
 
         public async Task DeleteMatch(int id)
         {
-            var match = await _contextSport.Matches.FirstOrDefaultAsync((x) => x.Id == id);
+            var match = await _contextSport.Matches
+                .Include((x) => x.Team1)
+                .Include((x) => x.Team2)
+                .FirstOrDefaultAsync((x) => x.Id == id);
             if(match != null)
             {
                 _contextSport.Matches.Remove(match);
@@ -50,7 +64,10 @@ namespace ApiProject_Joachim_Adomako.Services
 
         public async Task UpdateMatch(int id, Match updatedMatch)
         {
-            var oldMatch = await _contextSport.Matches.FirstOrDefaultAsync((x) => x.Id == id);
+            var oldMatch = await _contextSport.Matches
+                .Include((x) => x.Team1)
+                .Include((x) => x.Team2)
+                .FirstOrDefaultAsync((x) => x.Id == id);
 
             if (oldMatch == null)
             {
