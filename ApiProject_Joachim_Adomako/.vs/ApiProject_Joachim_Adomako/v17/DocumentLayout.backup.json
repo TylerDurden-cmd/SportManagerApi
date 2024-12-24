@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject_joachim_adomako\\controllers\\matchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:controllers\\matchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject_joachim_adomako\\services\\matchservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:services\\matchservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject_joachim_adomako\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject_joachim_adomako\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject_joachim_adomako\\services\\teamservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:services\\teamservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 402,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeamController.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "Controllers\\TeamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T22:49:38.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeamServiceDb.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\Services\\TeamServiceDb.cs",
+              "RelativeDocumentMoniker": "Services\\TeamServiceDb.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\Services\\TeamServiceDb.cs",
+              "RelativeToolTip": "Services\\TeamServiceDb.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T22:38:29.392Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 379,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T22:56:14.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatchServiceDb.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\Services\\MatchServiceDb.cs",
+              "RelativeDocumentMoniker": "Services\\MatchServiceDb.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\Services\\MatchServiceDb.cs",
+              "RelativeToolTip": "Services\\MatchServiceDb.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA5wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T23:31:06.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MatchController.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\Controllers\\MatchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MatchController.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\Controllers\\MatchController.cs",
+              "RelativeToolTip": "Controllers\\MatchController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T22:50:38.359Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
