@@ -19,17 +19,29 @@ namespace ApiProject_Joachim_Adomako
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddScoped<ITeamService, TeamServiceDb>();
-            builder.Services.AddScoped<IPlayerService, PlayerServiceDb>();
-            builder.Services.AddScoped<IMatchService, MatchServiceDb>();
-
-            builder.Services.AddDbContext<SportDbContext>(options =>
+            var db = builder.Configuration.GetValue<bool>("db");
+            if (db)
             {
-                var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-                var serverVersion = ServerVersion.AutoDetect(connectionString);
+                builder.Services.AddScoped<ITeamService, TeamServiceDb>();
+                builder.Services.AddScoped<IPlayerService, PlayerServiceDb>();
+                builder.Services.AddScoped<IMatchService, MatchServiceDb>();
 
-                options.UseMySql(connectionString, serverVersion);
-            });
+                builder.Services.AddDbContext<SportDbContext>(options =>
+                {
+                    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+                    var serverVersion = ServerVersion.AutoDetect(connectionString);
+
+                    options.UseMySql(connectionString, serverVersion);
+                });
+            }
+            else
+            {
+                builder.Services.AddScoped<ITeamService, TeamService>();
+                builder.Services.AddScoped<IPlayerService, PlayerService>();
+                builder.Services.AddScoped<IMatchService, MatchService>();
+            }
+
+            
 
             var app = builder.Build();
 

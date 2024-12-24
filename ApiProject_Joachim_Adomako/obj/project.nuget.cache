@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7J+GHHZtHEY=",
+  "dgSpecHash": "lv7nD3lbbt0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\ApiProject_Joachim_Adomako.csproj",
+  "projectFilePath": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\ApiProject_Joachim_Adomako.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zenbook\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\zenbook\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

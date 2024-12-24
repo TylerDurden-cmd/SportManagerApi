@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\ApiProject_Joachim_Adomako.csproj": {}
+    "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\ApiProject_Joachim_Adomako.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\ApiProject_Joachim_Adomako.csproj": {
+    "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\ApiProject_Joachim_Adomako.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\ApiProject_Joachim_Adomako.csproj",
+        "projectUniqueName": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\ApiProject_Joachim_Adomako.csproj",
         "projectName": "ApiProject_Joachim_Adomako",
-        "projectPath": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\ApiProject_Joachim_Adomako.csproj",
+        "projectPath": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\ApiProject_Joachim_Adomako.csproj",
         "packagesPath": "C:\\Users\\zenbook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject_Joachim_Adomako\\obj\\",
+        "outputPath": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zenbook\\AppData\\Roaming\\NuGet\\NuGet.Config",
