@@ -18,10 +18,10 @@ namespace ApiProject_Joachim_Adomako.Models
 
         [Column(name: "Team Id")]
         [Required]
-        public int Team_id { get; set; }
+        public int? Team_id { get; set; }
 
         [Column(name: "Team")]
-        public Team Team { get; set; }
+        public Team? Team { get; set; }
 
         [Column(name: "Picture Player")]
         public string Image { get; set; } = string.Empty;

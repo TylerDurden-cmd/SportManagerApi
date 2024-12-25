@@ -24,6 +24,8 @@ namespace ApiProject_Joachim_Adomako.Services
         {
             return await _contextSport.Teams
                 .Include((c) => c.players)
+                .Include((x) => x.AwayMatches)
+                .Include((x) => x.HomeMatches)
                 .FirstOrDefaultAsync((x) => x.Id == id);
         }
 
@@ -31,6 +33,8 @@ namespace ApiProject_Joachim_Adomako.Services
         {
             return await _contextSport.Teams
                 .Include(c => c.players)
+                .Include((x) => x.AwayMatches)
+                .Include((x) => x.HomeMatches)
                 .ToListAsync();
         }
 
@@ -50,6 +54,8 @@ namespace ApiProject_Joachim_Adomako.Services
             //delete alle matches 
             var team = await _contextSport.Teams
                 .Include((x) => x.players)
+                .Include((x) => x.AwayMatches)
+                .Include((x) => x.HomeMatches)
                 .FirstOrDefaultAsync((x) => x.Id == id);
             if (team != null)
             {
@@ -63,6 +69,8 @@ namespace ApiProject_Joachim_Adomako.Services
         {
             var oldTeam = await _contextSport.Teams
                 .Include((x) => x.players)
+                .Include((x) => x.AwayMatches)
+                .Include((x) => x.HomeMatches)
                 .FirstOrDefaultAsync((x) => x.Id == id);
 
             if (oldTeam == null)

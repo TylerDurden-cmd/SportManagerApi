@@ -21,8 +21,8 @@ public class MatchController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Match>> CreateMatch(Match match)
     {
+        if (!ModelState.IsValid) return BadRequest(ModelState);
         await _MatchService.CreateMatch(match);
-
         return CreatedAtAction(nameof(CreateMatch), new { id = match.Id });
     }
 

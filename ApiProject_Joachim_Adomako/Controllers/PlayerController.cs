@@ -20,8 +20,8 @@ public class PlayerController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Player>> CreatePlayer(Player player)
     {
+        if (!ModelState.IsValid) return BadRequest(ModelState);
         await _PlayerService.CreatePlayer(player);
-
         return CreatedAtAction(nameof(CreatePlayer), new { id = player.Id });
     }
 

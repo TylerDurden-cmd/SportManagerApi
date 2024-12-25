@@ -20,6 +20,7 @@ public class TeamController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Team>> CreateTeam(Team team)
     {
+        if (!ModelState.IsValid) return BadRequest(ModelState);
         await _TeamService.CreateTeam(team);
         return CreatedAtAction(nameof(CreateTeam), new { id = team.Id });
     }

@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\services\\playerservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:services\\playerservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\data\\sportdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:data\\sportdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\services\\teamservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:services\\teamservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\controllers\\matchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:controllers\\matchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\services\\teamservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:services\\teamservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\services\\playerservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:services\\playerservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|c:\\users\\zenbook\\documents\\api ontwikkeling\\apiproject\\sportmanagerapi\\apiproject_joachim_adomako\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D275C84-7A7C-45EC-8860-CD499F32114F}|ApiProject_Joachim_Adomako.csproj|solutionrelative:services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +49,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 399,
+          "DockedWidth": 266,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -38,39 +62,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TeamService.cs",
-              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Services\\TeamService.cs",
-              "RelativeDocumentMoniker": "Services\\TeamService.cs",
-              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Services\\TeamService.cs",
-              "RelativeToolTip": "Services\\TeamService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T16:15:56.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TeamServiceDb.cs",
               "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Services\\TeamServiceDb.cs",
               "RelativeDocumentMoniker": "Services\\TeamServiceDb.cs",
               "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Services\\TeamServiceDb.cs",
               "RelativeToolTip": "Services\\TeamServiceDb.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswEcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T16:29:11.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "TeamService.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Services\\TeamService.cs",
+              "RelativeDocumentMoniker": "Services\\TeamService.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Services\\TeamService.cs",
+              "RelativeToolTip": "Services\\TeamService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T16:15:56.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "PlayerServiceDb.cs",
               "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Services\\PlayerServiceDb.cs",
               "RelativeDocumentMoniker": "Services\\PlayerServiceDb.cs",
               "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Services\\PlayerServiceDb.cs",
               "RelativeToolTip": "Services\\PlayerServiceDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T16:23:12.332Z",
               "EditorCaption": ""
@@ -78,18 +102,96 @@
           ]
         },
         {
-          "DockedWidth": 382,
+          "DockedWidth": 515,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeamController.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Controllers\\TeamController.cs*",
+              "RelativeToolTip": "Controllers\\TeamController.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:04:46.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MatchController.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Controllers\\MatchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MatchController.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Controllers\\MatchController.cs",
+              "RelativeToolTip": "Controllers\\MatchController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:04:35.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "Models\\Match.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Models\\Match.cs",
+              "RelativeToolTip": "Models\\Match.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:55:11.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Models\\Player.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Models\\Player.cs",
+              "RelativeToolTip": "Models\\Player.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:54:37.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SportDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Data\\SportDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\SportDbContext.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Data\\SportDbContext.cs",
+              "RelativeToolTip": "Data\\SportDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:54:06.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "Models\\Team.cs",
+              "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Models\\Team.cs",
+              "RelativeToolTip": "Models\\Team.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA7wBwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:53:04.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlayerController.cs",
               "ToolTip": "C:\\Users\\zenbook\\Documents\\API Ontwikkeling\\ApiProject\\SportManagerApi\\ApiProject_Joachim_Adomako\\Controllers\\PlayerController.cs",
               "RelativeToolTip": "Controllers\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA8wBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T14:49:24.417Z",
               "EditorCaption": ""

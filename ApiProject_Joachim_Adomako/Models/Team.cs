@@ -24,9 +24,9 @@ namespace ApiProject_Joachim_Adomako.Models
         [Column(name: "Image Team")]
         public string Image { get; set; } = string.Empty;
         [Column(name: "players")]
-        public List<Player> players { get; set; }
-        public List<Match> HomeMatches { get; set; }
-        public List<Match> AwayMatches { get; set; }
+        public List<Player>? players { get; set; }
+        public List<Match>? HomeMatches { get; set; }
+        public List<Match>? AwayMatches { get; set; }
     }
 
 }

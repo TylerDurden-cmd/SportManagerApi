@@ -1,5 +1,7 @@
 ﻿using ApiProject_Joachim_Adomako.Data;
 using ApiProject_Joachim_Adomako.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiProject_Joachim_Adomako.Services
@@ -14,7 +16,7 @@ namespace ApiProject_Joachim_Adomako.Services
         }
 
         public async Task CreatePlayer(Player player)
-        {
+        {   
             _contextSport.players.Add(player);
              await _contextSport.SaveChangesAsync();
         }

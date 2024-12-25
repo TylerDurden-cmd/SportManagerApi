@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ApiProject_Joachim_Adomako.Models
 {
-    public class Match
+    public class Match 
     {
         [Column("Id")]
         [Required]
@@ -12,13 +12,13 @@ namespace ApiProject_Joachim_Adomako.Models
 
         [Column(name: "Team Id 1", TypeName = "varchar(32)")]
         [Required]
-        public int Team1_id { get; set; }
+        public int? Team1_id { get; set; }
         [Column(name: "Team 1", TypeName = "varchar(32)")]
         public Team? Team1 { get; set; }
 
         [Column(name: "Team Id 2", TypeName = "varchar(32)")]
         [Required]
-        public int Team2_id { get; set; }
+        public int? Team2_id { get; set; }
         [Column(name: "Team 2", TypeName = "varchar(32)")]
         public Team? Team2 { get; set; }
 
